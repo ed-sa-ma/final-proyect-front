@@ -28,7 +28,7 @@ function Login() {
   };
 
   return (
-    <form className="formulario" onSubmit={handleLogin}>
+    <form className="formulario flex-fill" onSubmit={handleLogin}>
       <input
         className="input"
         name="email"
