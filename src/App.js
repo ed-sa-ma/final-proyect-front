@@ -25,16 +25,14 @@ function App() {
       <Body></Body>
 
       <Routes>
-        <Route path="/" element={<Home></Home>} />
-        <Route path="/validate" element={<Validate />} />
-        <Route
-          path="/user"
+        <Route path="/"
           element={
             <RequireAuth>
               <User />
             </RequireAuth>
           }
         />
+        <Route path="/validate" element={<Validate />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
 
         <Route path="/auth">
