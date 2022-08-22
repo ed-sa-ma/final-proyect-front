@@ -81,7 +81,7 @@ function User() {
         accept="image/png, image/jpeg, image/jpg"
       ></input>
 
-      <div className="d-flex flex-wrap justify-content-around">
+      <div className="d-flex flex-wrap justify-content-center gap-4">
         {emotions.map((v, i) => (
           <CardManageEmotion key={i} manageEmotions={v}></CardManageEmotion>
         ))}
