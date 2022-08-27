@@ -72,7 +72,7 @@ function User() {
   return (
     <>
       {/* <div className="d-flex flex-wrap justify-content-around"> */}
-      <div className="d-flex flex-wrap justify-content-center gap-4">
+      <div className="d-flex flex-wrap justify-content-center gap-4 py-5">
         <CardManageEmotion></CardManageEmotion>
       </div>
 
